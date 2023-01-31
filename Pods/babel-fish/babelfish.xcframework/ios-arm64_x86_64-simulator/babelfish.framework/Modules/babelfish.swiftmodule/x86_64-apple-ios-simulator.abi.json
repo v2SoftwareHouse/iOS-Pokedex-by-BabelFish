@@ -1,0 +1,3391 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProtocolOutput",
+        "printedName": "ProtocolOutput",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "V",
+            "printedName": "V",
+            "declKind": "AssociatedType",
+            "usr": "s:9babelfish14ProtocolOutputP1VQa",
+            "mangledName": "$s9babelfish14ProtocolOutputP1VQa",
+            "moduleName": "babelfish",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0.V?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9babelfish14ProtocolOutputP5value1VQzSgvp",
+            "mangledName": "$s9babelfish14ProtocolOutputP5value1VQzSgvp",
+            "moduleName": "babelfish",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0.V?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish14ProtocolOutputP5value1VQzSgvg",
+                "mangledName": "$s9babelfish14ProtocolOutputP5value1VQzSgvg",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+                "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0.V?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish14ProtocolOutputP5value1VQzSgvs",
+                "mangledName": "$s9babelfish14ProtocolOutputP5value1VQzSgvs",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+                "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish14ProtocolOutputP5value1VQzSgvM",
+                "mangledName": "$s9babelfish14ProtocolOutputP5value1VQzSgvM",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+                "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9babelfish14ProtocolOutputP5errorypSgvp",
+            "mangledName": "$s9babelfish14ProtocolOutputP5errorypSgvp",
+            "moduleName": "babelfish",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish14ProtocolOutputP5errorypSgvg",
+                "mangledName": "$s9babelfish14ProtocolOutputP5errorypSgvg",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+                "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish14ProtocolOutputP5errorypSgvs",
+                "mangledName": "$s9babelfish14ProtocolOutputP5errorypSgvs",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+                "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish14ProtocolOutputP5errorypSgvM",
+                "mangledName": "$s9babelfish14ProtocolOutputP5errorypSgvM",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+                "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isError",
+            "printedName": "isError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish14ProtocolOutputP7isErrorSbyF",
+            "mangledName": "$s9babelfish14ProtocolOutputP7isErrorSbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+            "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isSuccess",
+            "printedName": "isSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish14ProtocolOutputP9isSuccessSbyF",
+            "mangledName": "$s9babelfish14ProtocolOutputP9isSuccessSbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+            "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isEmpty",
+            "printedName": "isEmpty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish14ProtocolOutputP7isEmptySbyF",
+            "mangledName": "$s9babelfish14ProtocolOutputP7isEmptySbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0 where τ_0_0 : babelfish.ProtocolOutput>",
+            "sugared_genericSig": "<Self where Self : babelfish.ProtocolOutput>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9babelfish14ProtocolOutputP",
+        "mangledName": "$s9babelfish14ProtocolOutputP",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Output",
+        "printedName": "Output",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9babelfish6OutputC5valuexSgvp",
+            "mangledName": "$s9babelfish6OutputC5valuexSgvp",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish6OutputC5valuexSgvg",
+                "mangledName": "$s9babelfish6OutputC5valuexSgvg",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<V>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish6OutputC5valuexSgvs",
+                "mangledName": "$s9babelfish6OutputC5valuexSgvs",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<V>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish6OutputC5valuexSgvM",
+                "mangledName": "$s9babelfish6OutputC5valuexSgvM",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<V>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9babelfish6OutputC5errorypSgvp",
+            "mangledName": "$s9babelfish6OutputC5errorypSgvp",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish6OutputC5errorypSgvg",
+                "mangledName": "$s9babelfish6OutputC5errorypSgvg",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<V>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish6OutputC5errorypSgvs",
+                "mangledName": "$s9babelfish6OutputC5errorypSgvs",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<V>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish6OutputC5errorypSgvM",
+                "mangledName": "$s9babelfish6OutputC5errorypSgvM",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<V>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Output",
+                "printedName": "babelfish.Output<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish6OutputC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish6OutputCACyxGycfc",
+            "mangledName": "$s9babelfish6OutputCACyxGycfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Output",
+                "printedName": "babelfish.Output<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish6OutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish6OutputC5value5errorACyxGxSg_ypSgtcfc",
+            "mangledName": "$s9babelfish6OutputC5value5errorACyxGxSg_ypSgtcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isEmpty",
+            "printedName": "isEmpty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish6OutputC7isEmptySbyF",
+            "mangledName": "$s9babelfish6OutputC7isEmptySbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isError",
+            "printedName": "isError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish6OutputC7isErrorSbyF",
+            "mangledName": "$s9babelfish6OutputC7isErrorSbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isSuccess",
+            "printedName": "isSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish6OutputC9isSuccessSbyF",
+            "mangledName": "$s9babelfish6OutputC9isSuccessSbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish6OutputC",
+        "mangledName": "$s9babelfish6OutputC",
+        "moduleName": "babelfish",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<V>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ProtocolOutput",
+            "printedName": "ProtocolOutput",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "V",
+                "printedName": "V",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:9babelfish14ProtocolOutputP",
+            "mangledName": "$s9babelfish14ProtocolOutputP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChainedUseCase",
+        "printedName": "ChainedUseCase",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(first:second:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChainedUseCase",
+                "printedName": "babelfish.ChainedUseCase<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:9babelfish14ChainedUseCaseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UseCase",
+                "printedName": "babelfish.UseCase<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:9babelfish7UseCaseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UseCase",
+                "printedName": "babelfish.UseCase<τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:9babelfish7UseCaseC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish14ChainedUseCaseC5first6secondACyxq_q0_GAA0cD0Cyxq_G_AHyq_q0_Gtcfc",
+            "mangledName": "$s9babelfish14ChainedUseCaseC5first6secondACyxq_q0_GAA0cD0Cyxq_G_AHyq_q0_Gtcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2>",
+            "sugared_genericSig": "<P, R, T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(param:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Output",
+                "printedName": "babelfish.Output<τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:9babelfish6OutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish14ChainedUseCaseC7execute5paramAA6OutputCyq0_GxSg_tF",
+            "mangledName": "$s9babelfish14ChainedUseCaseC7execute5paramAA6OutputCyq0_GxSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2>",
+            "sugared_genericSig": "<P, R, T>",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChainedUseCase",
+                "printedName": "babelfish.ChainedUseCase<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:9babelfish14ChainedUseCaseC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish14ChainedUseCaseCACyxq_q0_Gycfc",
+            "mangledName": "$s9babelfish14ChainedUseCaseCACyxq_q0_Gycfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2>",
+            "sugared_genericSig": "<P, R, T>",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish14ChainedUseCaseC",
+        "mangledName": "$s9babelfish14ChainedUseCaseC",
+        "moduleName": "babelfish",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2>",
+        "sugared_genericSig": "<P, R, T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:9babelfish7UseCaseC",
+        "superclassNames": [
+          "babelfish.UseCase<τ_0_0, τ_0_2>"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InternetConnectionException",
+        "printedName": "InternetConnectionException",
+        "declKind": "Struct",
+        "usr": "s:9babelfish27InternetConnectionExceptionV",
+        "mangledName": "$s9babelfish27InternetConnectionExceptionV",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthenticationException",
+        "printedName": "AuthenticationException",
+        "declKind": "Struct",
+        "usr": "s:9babelfish23AuthenticationExceptionV",
+        "mangledName": "$s9babelfish23AuthenticationExceptionV",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorOutput",
+        "printedName": "ErrorOutput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorOutput",
+                "printedName": "babelfish.ErrorOutput<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish11ErrorOutputC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish11ErrorOutputCACyxGycfc",
+            "mangledName": "$s9babelfish11ErrorOutputCACyxGycfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorOutput",
+                "printedName": "babelfish.ErrorOutput<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish11ErrorOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish11ErrorOutputC5errorACyxGypSg_tcfc",
+            "mangledName": "$s9babelfish11ErrorOutputC5errorACyxGypSg_tcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isError",
+            "printedName": "isError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish11ErrorOutputC02isB0SbyF",
+            "mangledName": "$s9babelfish11ErrorOutputC02isB0SbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorOutput",
+                "printedName": "babelfish.ErrorOutput<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish11ErrorOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish11ErrorOutputC5value5errorACyxGxSg_ypSgtcfc",
+            "mangledName": "$s9babelfish11ErrorOutputC5value5errorACyxGxSg_ypSgtcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish11ErrorOutputC",
+        "mangledName": "$s9babelfish11ErrorOutputC",
+        "moduleName": "babelfish",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<V>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:9babelfish6OutputC",
+        "superclassNames": [
+          "babelfish.Output<τ_0_0>"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ProtocolOutput",
+            "printedName": "ProtocolOutput",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "V",
+                "printedName": "V",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:9babelfish14ProtocolOutputP",
+            "mangledName": "$s9babelfish14ProtocolOutputP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "babelfish"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "babelfish"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseViewController",
+        "printedName": "BaseViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "controller",
+            "printedName": "controller",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9babelfish18BaseViewControllerC10controllerxvp",
+            "mangledName": "$s9babelfish18BaseViewControllerC10controllerxvp",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "Custom",
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish18BaseViewControllerC10controllerxvg",
+                "mangledName": "$s9babelfish18BaseViewControllerC10controllerxvg",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<C>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish18BaseViewControllerC10controllerxvs",
+                "mangledName": "$s9babelfish18BaseViewControllerC10controllerxvs",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<C>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9babelfish18BaseViewControllerC10controllerxvM",
+                "mangledName": "$s9babelfish18BaseViewControllerC10controllerxvM",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<C>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setupViews",
+            "printedName": "setupViews(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC10setupViews4viewySo6UIViewCSg_tF",
+            "mangledName": "$s9babelfish18BaseViewControllerC10setupViews4viewySo6UIViewCSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "channelName",
+            "printedName": "channelName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC11channelNameSSyF",
+            "mangledName": "$s9babelfish18BaseViewControllerC11channelNameSSyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLayout",
+            "printedName": "getLayout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC9getLayoutSiyF",
+            "mangledName": "$s9babelfish18BaseViewControllerC9getLayoutSiyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC11viewDidLoadyyF",
+            "mangledName": "$s9babelfish18BaseViewControllerC11viewDidLoadyyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupController",
+            "printedName": "setupController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC05setupD0xyF",
+            "mangledName": "$s9babelfish18BaseViewControllerC05setupD0xyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleThrowable",
+            "printedName": "handleThrowable(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC15handleThrowable5erroryypSg_tF",
+            "mangledName": "$s9babelfish18BaseViewControllerC15handleThrowable5erroryypSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleAuthError",
+            "printedName": "handleAuthError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC15handleAuthErroryyF",
+            "mangledName": "$s9babelfish18BaseViewControllerC15handleAuthErroryyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleHttpError",
+            "printedName": "handleHttpError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC15handleHttpError5erroryypSg_tF",
+            "mangledName": "$s9babelfish18BaseViewControllerC15handleHttpError5erroryypSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleConnectionError",
+            "printedName": "handleConnectionError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC21handleConnectionErroryyF",
+            "mangledName": "$s9babelfish18BaseViewControllerC21handleConnectionErroryyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleError",
+            "printedName": "handleError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC11handleError5erroryypSg_tF",
+            "mangledName": "$s9babelfish18BaseViewControllerC11handleError5erroryypSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleSuccess",
+            "printedName": "handleSuccess(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish18BaseViewControllerC13handleSuccess5valueyypSg_tF",
+            "mangledName": "$s9babelfish18BaseViewControllerC13handleSuccess5valueyypSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseViewController",
+                "printedName": "babelfish.BaseViewController<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish18BaseViewControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish18BaseViewControllerC7nibName6bundleACyxGSSSg_So8NSBundleCSgtcfc",
+            "mangledName": "$s9babelfish18BaseViewControllerC7nibName6bundleACyxGSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "babelfish.BaseViewController<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseViewController",
+                    "printedName": "babelfish.BaseViewController<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:9babelfish18BaseViewControllerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish18BaseViewControllerC5coderACyxGSgSo7NSCoderC_tcfc",
+            "mangledName": "$s9babelfish18BaseViewControllerC5coderACyxGSgSo7NSCoderC_tcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<C>",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish18BaseViewControllerC",
+        "mangledName": "$s9babelfish18BaseViewControllerC",
+        "moduleName": "babelfish",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<C>",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ControllerFactory",
+        "printedName": "ControllerFactory",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ControllerFactory",
+                "printedName": "babelfish.ControllerFactory<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:9babelfish17ControllerFactoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish17ControllerFactoryCACyxq_Gycfc",
+            "mangledName": "$s9babelfish17ControllerFactoryCACyxq_Gycfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<V, T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_1?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish17ControllerFactoryC6create7contextq_Sgx_tF",
+            "mangledName": "$s9babelfish17ControllerFactoryC6create7contextq_Sgx_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<V, T>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish17ControllerFactoryC",
+        "mangledName": "$s9babelfish17ControllerFactoryC",
+        "moduleName": "babelfish",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<V, T>",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewModelFactory",
+        "printedName": "ViewModelFactory",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewModelFactory",
+                "printedName": "babelfish.ViewModelFactory",
+                "usr": "s:9babelfish16ViewModelFactoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish16ViewModelFactoryCACycfc",
+            "mangledName": "$s9babelfish16ViewModelFactoryCACycfc",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish16ViewModelFactoryC",
+        "mangledName": "$s9babelfish16ViewModelFactoryC",
+        "moduleName": "babelfish",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UseCase",
+        "printedName": "UseCase",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UseCase",
+                "printedName": "babelfish.UseCase<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:9babelfish7UseCaseC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish7UseCaseCACyxq_Gycfc",
+            "mangledName": "$s9babelfish7UseCaseCACyxq_Gycfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "process",
+            "printedName": "process(param:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish7UseCaseC7process5paramyxSg_tF",
+            "mangledName": "$s9babelfish7UseCaseC7process5paramyxSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(err:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish7UseCaseC7onError3erryyp_tF",
+            "mangledName": "$s9babelfish7UseCaseC7onError3erryyp_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onGuard",
+            "printedName": "onGuard(param:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish7UseCaseC7onGuard5paramSbxSg_tKF",
+            "mangledName": "$s9babelfish7UseCaseC7onGuard5paramSbxSg_tKF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(param:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Output",
+                "printedName": "babelfish.Output<τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:9babelfish6OutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish7UseCaseC7execute5paramAA6OutputCyq_GxSg_tF",
+            "mangledName": "$s9babelfish7UseCaseC7execute5paramAA6OutputCyq_GxSg_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResult",
+            "printedName": "onResult(output:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Output",
+                "printedName": "babelfish.Output<τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:9babelfish6OutputC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish7UseCaseC8onResult6outputyAA6OutputCyq_G_tF",
+            "mangledName": "$s9babelfish7UseCaseC8onResult6outputyAA6OutputCyq_G_tF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onGuardError",
+            "printedName": "onGuardError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish7UseCaseC12onGuardErroryyKF",
+            "mangledName": "$s9babelfish7UseCaseC12onGuardErroryyKF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish7UseCaseC",
+        "mangledName": "$s9babelfish7UseCaseC",
+        "moduleName": "babelfish",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<P, R>",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SequenceUseCase",
+        "printedName": "SequenceUseCase",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SequenceUseCase",
+                "printedName": "babelfish.SequenceUseCase",
+                "usr": "s:9babelfish15SequenceUseCaseC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish15SequenceUseCaseCACycfc",
+            "mangledName": "$s9babelfish15SequenceUseCaseCACycfc",
+            "moduleName": "babelfish",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(param:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Output",
+                "printedName": "babelfish.Output<[babelfish.Output<Any>]>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[babelfish.Output<Any>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Output",
+                        "printedName": "babelfish.Output<Any>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:9babelfish6OutputC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:9babelfish6OutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish15SequenceUseCaseC7execute5paramAA6OutputCySayAGyypGGGypSg_tF",
+            "mangledName": "$s9babelfish15SequenceUseCaseC7execute5paramAA6OutputCySayAGyypGGGypSg_tF",
+            "moduleName": "babelfish",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SequenceBuilder",
+            "printedName": "SequenceBuilder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SequenceBuilder",
+                    "printedName": "babelfish.SequenceUseCase.SequenceBuilder",
+                    "usr": "s:9babelfish15SequenceUseCaseC0B7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9babelfish15SequenceUseCaseC0B7BuilderCAEycfc",
+                "mangledName": "$s9babelfish15SequenceUseCaseC0B7BuilderCAEycfc",
+                "moduleName": "babelfish",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "add",
+                "printedName": "add(useCase:param:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SequenceBuilder",
+                    "printedName": "babelfish.SequenceUseCase.SequenceBuilder",
+                    "usr": "s:9babelfish15SequenceUseCaseC0B7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UseCase",
+                    "printedName": "babelfish.UseCase<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:9babelfish7UseCaseC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9babelfish15SequenceUseCaseC0B7BuilderC3add03useD05paramAeA0cD0Cyxq_G_xSgtr0_lF",
+                "mangledName": "$s9babelfish15SequenceUseCaseC0B7BuilderC3add03useD05paramAeA0cD0Cyxq_G_xSgtr0_lF",
+                "moduleName": "babelfish",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<P, R>",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UseCase",
+                    "printedName": "babelfish.UseCase<Any, [babelfish.Output<Any>]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[babelfish.Output<Any>]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Output",
+                            "printedName": "babelfish.Output<Any>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:9babelfish6OutputC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:9babelfish7UseCaseC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9babelfish15SequenceUseCaseC0B7BuilderC5buildAA0cD0CyypSayAA6OutputCyypGGGyF",
+                "mangledName": "$s9babelfish15SequenceUseCaseC0B7BuilderC5buildAA0cD0CyypSayAA6OutputCyypGGGyF",
+                "moduleName": "babelfish",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:9babelfish15SequenceUseCaseC0B7BuilderC",
+            "mangledName": "$s9babelfish15SequenceUseCaseC0B7BuilderC",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish15SequenceUseCaseC",
+        "mangledName": "$s9babelfish15SequenceUseCaseC",
+        "moduleName": "babelfish",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:9babelfish7UseCaseC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "babelfish.UseCase<Any, [babelfish.Output<Any>]>"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewModelProvider",
+        "printedName": "ViewModelProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "of",
+            "printedName": "of(model:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "babelfish.BaseViewModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseViewModel",
+                    "printedName": "babelfish.BaseViewModel",
+                    "usr": "s:9babelfish13BaseViewModelC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "babelfish.BaseViewModel.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseViewModel",
+                    "printedName": "babelfish.BaseViewModel",
+                    "usr": "s:9babelfish13BaseViewModelC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish17ViewModelProviderC2of5modelAA04BasebC0CSgAGm_tFZ",
+            "mangledName": "$s9babelfish17ViewModelProviderC2of5modelAA04BasebC0CSgAGm_tFZ",
+            "moduleName": "babelfish",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish17ViewModelProviderC",
+        "mangledName": "$s9babelfish17ViewModelProviderC",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Controller",
+        "printedName": "Controller",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "observe",
+            "printedName": "observe(channelName:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationCenter",
+                "printedName": "Foundation.NotificationCenter",
+                "usr": "c:objc(cs)NSNotificationCenter"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish10ControllerP7observe11channelName8listenerySS_So20NSNotificationCenterCtF",
+            "mangledName": "$s9babelfish10ControllerP7observe11channelName8listenerySS_So20NSNotificationCenterCtF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0 where τ_0_0 : babelfish.Controller>",
+            "sugared_genericSig": "<Self where Self : babelfish.Controller>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9babelfish10ControllerP",
+        "mangledName": "$s9babelfish10ControllerP",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseViewModel",
+        "printedName": "BaseViewModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "observe",
+            "printedName": "observe(channelName:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationCenter",
+                "printedName": "Foundation.NotificationCenter",
+                "usr": "c:objc(cs)NSNotificationCenter"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish13BaseViewModelC7observe11channelName8listenerySS_So20NSNotificationCenterCtF",
+            "mangledName": "$s9babelfish13BaseViewModelC7observe11channelName8listenerySS_So20NSNotificationCenterCtF",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disposeAll",
+            "printedName": "disposeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish13BaseViewModelC10disposeAllyyF",
+            "mangledName": "$s9babelfish13BaseViewModelC10disposeAllyyF",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "postValue",
+            "printedName": "postValue(channelName:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish13BaseViewModelC9postValue11channelName5valueySS_yptF",
+            "mangledName": "$s9babelfish13BaseViewModelC9postValue11channelName5valueySS_yptF",
+            "moduleName": "babelfish",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dispatchUseCase",
+            "printedName": "dispatchUseCase(param:useCase:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UseCase",
+                "printedName": "babelfish.UseCase<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:9babelfish7UseCaseC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(babelfish.Output<τ_0_1>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Output",
+                    "printedName": "babelfish.Output<τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:9babelfish6OutputC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish13BaseViewModelC15dispatchUseCase5param03useG08listeneryxSg_AA0fG0Cyxq_GyAA6OutputCyq_Gctr0_lF",
+            "mangledName": "$s9babelfish13BaseViewModelC15dispatchUseCase5param03useG08listeneryxSg_AA0fG0Cyxq_GyAA6OutputCyq_Gctr0_lF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<P, R>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseViewModel",
+                "printedName": "babelfish.BaseViewModel",
+                "usr": "s:9babelfish13BaseViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish13BaseViewModelCACycfc",
+            "mangledName": "$s9babelfish13BaseViewModelCACycfc",
+            "moduleName": "babelfish",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish13BaseViewModelC",
+        "mangledName": "$s9babelfish13BaseViewModelC",
+        "moduleName": "babelfish",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:9babelfish9ViewModelC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "babelfish.ViewModel"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Controller",
+            "printedName": "Controller",
+            "usr": "s:9babelfish10ControllerP",
+            "mangledName": "$s9babelfish10ControllerP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewModel",
+        "printedName": "ViewModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewModel",
+                "printedName": "babelfish.ViewModel",
+                "usr": "s:9babelfish9ViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish9ViewModelCACycfc",
+            "mangledName": "$s9babelfish9ViewModelCACycfc",
+            "moduleName": "babelfish",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish9ViewModelC",
+        "mangledName": "$s9babelfish9ViewModelC",
+        "moduleName": "babelfish",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ValueOutput",
+        "printedName": "ValueOutput",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValueOutput",
+                "printedName": "babelfish.ValueOutput<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish11ValueOutputC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish11ValueOutputCACyxGycfc",
+            "mangledName": "$s9babelfish11ValueOutputCACyxGycfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValueOutput",
+                "printedName": "babelfish.ValueOutput<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish11ValueOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish11ValueOutputC5valueACyxGxSg_tcfc",
+            "mangledName": "$s9babelfish11ValueOutputC5valueACyxGxSg_tcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isError",
+            "printedName": "isError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9babelfish11ValueOutputC7isErrorSbyF",
+            "mangledName": "$s9babelfish11ValueOutputC7isErrorSbyF",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValueOutput",
+                "printedName": "babelfish.ValueOutput<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:9babelfish11ValueOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9babelfish11ValueOutputC5value5errorACyxGxSg_ypSgtcfc",
+            "mangledName": "$s9babelfish11ValueOutputC5value5errorACyxGxSg_ypSgtcfc",
+            "moduleName": "babelfish",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<V>",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9babelfish11ValueOutputC",
+        "mangledName": "$s9babelfish11ValueOutputC",
+        "moduleName": "babelfish",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<V>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:9babelfish6OutputC",
+        "superclassNames": [
+          "babelfish.Output<τ_0_0>"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ProtocolOutput",
+            "printedName": "ProtocolOutput",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "V",
+                "printedName": "V",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:9babelfish14ProtocolOutputP",
+            "mangledName": "$s9babelfish14ProtocolOutputP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpException",
+        "printedName": "HttpException",
+        "declKind": "Struct",
+        "usr": "s:9babelfish13HttpExceptionV",
+        "mangledName": "$s9babelfish13HttpExceptionV",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "babelfish",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/ChainedUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 14,
+      "value": "\"babelfish.ChainedUseCase\""
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/UseCaseDecorator.swift",
+      "kind": "StringLiteral",
+      "offset": 141,
+      "length": 16,
+      "value": "\"babelfish.UseCaseDecorator\""
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/ErrorOutput.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 11,
+      "value": "\"babelfish.ErrorOutput\""
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/CallbackDecorator.swift",
+      "kind": "StringLiteral",
+      "offset": 133,
+      "length": 17,
+      "value": "\"babelfish.CallbackDecorator\""
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/UseCaseDispatcher.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 19,
+      "value": "\"babelfish.DispatcherDecorator\""
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/SequenceUseCase.swift",
+      "kind": "Array",
+      "offset": 216,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/SequenceUseCase.swift",
+      "kind": "Array",
+      "offset": 260,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/SequenceUseCase.swift",
+      "kind": "Array",
+      "offset": 605,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/DispatchQueue.swift",
+      "kind": "FloatLiteral",
+      "offset": 203,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/caiosanchezchristino\/Desktop\/babelfish\/babelfish\/ValueOutput.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 11,
+      "value": "\"babelfish.ValueOutput\""
+    }
+  ]
+}

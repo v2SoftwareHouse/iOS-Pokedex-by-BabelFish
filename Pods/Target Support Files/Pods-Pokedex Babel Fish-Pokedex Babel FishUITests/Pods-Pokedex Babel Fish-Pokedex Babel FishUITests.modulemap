@@ -1,0 +1,6 @@
+framework module Pods_Pokedex_Babel_Fish_Pokedex_Babel_FishUITests {
+  umbrella header "Pods-Pokedex Babel Fish-Pokedex Babel FishUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

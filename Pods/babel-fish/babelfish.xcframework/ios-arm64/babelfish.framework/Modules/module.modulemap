@@ -1,0 +1,11 @@
+framework module babelfish {
+  umbrella header "babelfish.h"
+
+  export *
+  module * { export * }
+}
+
+module babelfish.Swift {
+  header "babelfish-Swift.h"
+  requires objc
+}

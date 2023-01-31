@@ -1,0 +1,6 @@
+framework module Pods_Pokedex_Babel_Fish {
+  umbrella header "Pods-Pokedex Babel Fish-umbrella.h"
+
+  export *
+  module * { export * }
+}

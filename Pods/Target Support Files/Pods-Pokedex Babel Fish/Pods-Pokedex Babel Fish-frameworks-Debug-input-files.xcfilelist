@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Pokedex Babel Fish/Pods-Pokedex Babel Fish-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/babel-fish/babelfish.framework/babelfish

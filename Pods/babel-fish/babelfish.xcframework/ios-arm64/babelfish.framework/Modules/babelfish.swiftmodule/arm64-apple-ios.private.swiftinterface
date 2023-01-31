@@ -1,0 +1,130 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name babelfish
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import babelfish
+public protocol ProtocolOutput {
+  associatedtype V
+  var value: Self.V? { get set }
+  var error: Any? { get set }
+  func isError() -> Swift.Bool
+  func isSuccess() -> Swift.Bool
+  func isEmpty() -> Swift.Bool
+}
+public class Output<V> : babelfish.ProtocolOutput {
+  public var value: V?
+  public var error: Any?
+  public typealias V = V
+  public init()
+  public init(value: V?, error: Any? = nil)
+  public func isEmpty() -> Swift.Bool
+  public func isError() -> Swift.Bool
+  public func isSuccess() -> Swift.Bool
+  @objc deinit
+}
+public class ChainedUseCase<P, R, T> : babelfish.UseCase<P, T> {
+  public init(first: babelfish.UseCase<P, R>, second: babelfish.UseCase<R, T>)
+  override open func execute(param: P?) -> babelfish.Output<T>
+  @objc deinit
+}
+public struct InternetConnectionException {
+}
+extension babelfish.InternetConnectionException : Swift.Error {
+}
+public struct AuthenticationException {
+}
+extension babelfish.AuthenticationException : Swift.Error {
+}
+public class ErrorOutput<V> : babelfish.Output<V> {
+  override public init()
+  public init(error: Any?)
+  override public func isError() -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseViewController<C> : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var controller: C {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open func setupViews(view: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) open func channelName() -> Swift.String
+  @_Concurrency.MainActor(unsafe) open func getLayout() -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) open func setupController() -> C
+  @_Concurrency.MainActor(unsafe) open func handleThrowable(error: Any?)
+  @_Concurrency.MainActor(unsafe) open func handleAuthError()
+  @_Concurrency.MainActor(unsafe) open func handleHttpError(error: Any?)
+  @_Concurrency.MainActor(unsafe) open func handleConnectionError()
+  @_Concurrency.MainActor(unsafe) open func handleError(error: Any?)
+  @_Concurrency.MainActor(unsafe) open func handleSuccess(value: Any?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+open class ControllerFactory<V, T> {
+  public init()
+  open func create(context: V) -> T?
+  @objc deinit
+}
+open class ViewModelFactory {
+  required public init()
+  @objc deinit
+}
+open class UseCase<P, R> {
+  public typealias P = P
+  public typealias R = R
+  public init()
+  open func process(param: P?)
+  open func onError(err: Any)
+  open func onGuard(param: P?) throws -> Swift.Bool
+  open func execute(param: P?) -> babelfish.Output<R>
+  open func onResult(output: babelfish.Output<R>)
+  open func onGuardError() throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class SequenceUseCase : babelfish.UseCase<Any, [babelfish.Output<Any>]> {
+  override public init()
+  override open func execute(param: Any?) -> babelfish.Output<[babelfish.Output<Any>]>
+  public class SequenceBuilder {
+    public init()
+    public func add<P, R>(useCase: babelfish.UseCase<P, R>, param: P? = nil) -> babelfish.SequenceUseCase.SequenceBuilder
+    public func build() -> babelfish.UseCase<Any, [babelfish.Output<Any>]>
+    @objc deinit
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ViewModelProvider {
+  public static func of(model: babelfish.BaseViewModel.Type) -> babelfish.BaseViewModel?
+  @objc deinit
+}
+public protocol Controller {
+  func observe(channelName: Swift.String, listener: Foundation.NotificationCenter)
+}
+@_inheritsConvenienceInitializers open class BaseViewModel : babelfish.ViewModel, babelfish.Controller {
+  public func observe(channelName: Swift.String, listener: Foundation.NotificationCenter)
+  public func disposeAll()
+  open func postValue(channelName: Swift.String, value: Any)
+  public func dispatchUseCase<P, R>(param: P?, useCase: babelfish.UseCase<P, R>, listener: @escaping (babelfish.Output<R>) -> Swift.Void)
+  required public init()
+  @objc deinit
+}
+open class ViewModel {
+  @objc deinit
+  required public init()
+}
+public class ValueOutput<V> : babelfish.Output<V> {
+  override public init()
+  public init(value: V?)
+  override public func isError() -> Swift.Bool
+  @objc deinit
+}
+public struct HttpException {
+}
+extension babelfish.HttpException : Swift.Error {
+}

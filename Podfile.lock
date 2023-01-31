@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.4)
+  - babel-fish (0.0.23)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.4)
+  - babel-fish (= 0.0.23)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - babel-fish
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  babel-fish: 25eec9f029d8226826e3da6f4b50451ad22febb7
+
+PODFILE CHECKSUM: f577513f638e84f9fe4c25fe5019a70ee09217e9
+
+COCOAPODS: 1.11.3
