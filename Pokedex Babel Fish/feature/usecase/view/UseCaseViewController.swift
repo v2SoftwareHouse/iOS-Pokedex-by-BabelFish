@@ -13,7 +13,7 @@ class UseCaseViewController: BaseViewController<UseCaseController> {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        controller.doFetch(channelName: channelName())
+        controller.doFetch(channelName: channelName(), name: "bulbasaur")
     }
     
     override func setupViews(view: UIView?) {
@@ -24,8 +24,13 @@ class UseCaseViewController: BaseViewController<UseCaseController> {
         "UseCaseViewController"
     }
 
+
     override func handleSuccess(value: Any?) {
         value
+    }
+    
+    override func handleError(error: Any?) {
+        error
     }
     
     override func setupController() -> UseCaseController {

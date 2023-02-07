@@ -6,11 +6,16 @@
 //
 
 import Foundation
+import Alamofire
 
-class UseCaseRepositoryImpl : UseCaseRepository {
+class UseCaseRepositoryImpl : BaseRepository, UseCaseRepository {
+    
+    override init(baseUrl: String) {
+        super.init(baseUrl: baseUrl)
+    }
     
     func doFetch(name: String?) -> UnitPokemon? {
-        return UnitPokemon(name: "name")
+        let pokemon = "pokemon/" + (name ?? "")
+        return getBodyOrThrow(call: AF.request(baseUrl + pokemon, method: .get))
     }
 }
-

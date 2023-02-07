@@ -10,8 +10,12 @@ import babelfish
 
 class UseCaseViewModel: BaseViewModel, UseCaseController {
     
-    func doFetch(channelName: String) {
+    lazy var get: GETUseCase = UseCaseGatewayInjector.injector!.get
     
+    func doFetch(channelName: String, name: String?) {
+        dispatchUseCase(param: name, useCase: get){ output in
+            self.postValue(channelName: channelName, value: output)
+       }
     }
 }
 

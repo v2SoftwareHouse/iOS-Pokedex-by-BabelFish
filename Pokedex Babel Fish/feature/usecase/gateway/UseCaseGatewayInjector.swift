@@ -10,9 +10,9 @@ import Foundation
 class UseCaseGatewayInjector {
     static var injector: UseCaseGatewayInjector?
     
-    let getBulbasaur: GETBulbasaurUseCase
+    let get: GETUseCase
 
-    init(getBulbasaur: GETBulbasaurUseCase) {
-        self.getBulbasaur = getBulbasaur
+    init(get: GETUseCase) {
+        self.get = get
     }
 }

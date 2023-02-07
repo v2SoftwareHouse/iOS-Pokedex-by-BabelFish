@@ -19,15 +19,6 @@
 		549FC42129771C5C003B51BE /* Pokedex_Babel_FishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC42029771C5C003B51BE /* Pokedex_Babel_FishTests.swift */; };
 		549FC42B29771C5C003B51BE /* Pokedex_Babel_FishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC42A29771C5C003B51BE /* Pokedex_Babel_FishUITests.swift */; };
 		549FC42D29771C5C003B51BE /* Pokedex_Babel_FishUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC42C29771C5C003B51BE /* Pokedex_Babel_FishUITestsLaunchTests.swift */; };
-		549FC53F297CAB8A003B51BE /* LandingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4F5297CAB89003B51BE /* LandingUseCase.swift */; };
-		549FC540297CAB8A003B51BE /* LandingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4F6297CAB89003B51BE /* LandingRepository.swift */; };
-		549FC541297CAB8A003B51BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4F8297CAB89003B51BE /* ViewController.swift */; };
-		549FC542297CAB8A003B51BE /* LandingViewInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4F9297CAB89003B51BE /* LandingViewInjector.swift */; };
-		549FC543297CAB8A003B51BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4FA297CAB89003B51BE /* ContentView.swift */; };
-		549FC544297CAB8A003B51BE /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4FC297CAB89003B51BE /* Pokemon.swift */; };
-		549FC545297CAB8A003B51BE /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4FD297CAB89003B51BE /* Landing.swift */; };
-		549FC546297CAB8A003B51BE /* LandingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC4FF297CAB89003B51BE /* LandingController.swift */; };
-		549FC547297CAB8A003B51BE /* LandingGatewayInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC500297CAB89003B51BE /* LandingGatewayInjector.swift */; };
 		549FC548297CAB8A003B51BE /* ChainGETBulbasaurUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC503297CAB89003B51BE /* ChainGETBulbasaurUseCase.swift */; };
 		549FC549297CAB8A003B51BE /* ChainGETIvysaurUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC504297CAB89003B51BE /* ChainGETIvysaurUseCase.swift */; };
 		549FC54A297CAB8A003B51BE /* ChainUseCaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC505297CAB89003B51BE /* ChainUseCaseRepository.swift */; };
@@ -46,16 +37,13 @@
 		549FC557297CAB8A003B51BE /* SequencePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC519297CAB8A003B51BE /* SequencePokemon.swift */; };
 		549FC558297CAB8A003B51BE /* SequenceUseCaseGatewayInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC51B297CAB8A003B51BE /* SequenceUseCaseGatewayInjector.swift */; };
 		549FC559297CAB8A003B51BE /* SequenceUseCaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC51C297CAB8A003B51BE /* SequenceUseCaseController.swift */; };
-		549FC55A297CAB8A003B51BE /* GETBulbasaurUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC51F297CAB8A003B51BE /* GETBulbasaurUseCase.swift */; };
+		549FC55A297CAB8A003B51BE /* GETUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC51F297CAB8A003B51BE /* GETUseCase.swift */; };
 		549FC55B297CAB8A003B51BE /* UseCaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC520297CAB8A003B51BE /* UseCaseRepository.swift */; };
 		549FC55C297CAB8A003B51BE /* UseCaseViewInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC522297CAB8A003B51BE /* UseCaseViewInjector.swift */; };
 		549FC55D297CAB8A003B51BE /* UseCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC523297CAB8A003B51BE /* UseCaseViewController.swift */; };
 		549FC55E297CAB8A003B51BE /* UnitPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC525297CAB8A003B51BE /* UnitPokemon.swift */; };
 		549FC55F297CAB8A003B51BE /* UseCaseGatewayInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC527297CAB8A003B51BE /* UseCaseGatewayInjector.swift */; };
 		549FC560297CAB8A003B51BE /* UseCaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC528297CAB8A003B51BE /* UseCaseController.swift */; };
-		549FC561297CAB8A003B51BE /* LandingRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC52C297CAB8A003B51BE /* LandingRepositoryImpl.swift */; };
-		549FC562297CAB8A003B51BE /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC52E297CAB8A003B51BE /* LandingViewModel.swift */; };
-		549FC563297CAB8A003B51BE /* ControllerFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC52F297CAB8A003B51BE /* ControllerFactoryImpl.swift */; };
 		549FC564297CAB8A003B51BE /* ChainUseCaseRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC531297CAB8A003B51BE /* ChainUseCaseRepositoryImpl.swift */; };
 		549FC565297CAB8A003B51BE /* ChainUseCaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC533297CAB8A003B51BE /* ChainUseCaseViewModel.swift */; };
 		549FC566297CAB8A003B51BE /* ChainUseCaseControllerFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FC534297CAB8A003B51BE /* ChainUseCaseControllerFactoryImpl.swift */; };
@@ -101,15 +89,6 @@
 		549FC42629771C5C003B51BE /* Pokedex Babel FishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokedex Babel FishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		549FC42A29771C5C003B51BE /* Pokedex_Babel_FishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex_Babel_FishUITests.swift; sourceTree = "<group>"; };
 		549FC42C29771C5C003B51BE /* Pokedex_Babel_FishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex_Babel_FishUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		549FC4F5297CAB89003B51BE /* LandingUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingUseCase.swift; sourceTree = "<group>"; };
-		549FC4F6297CAB89003B51BE /* LandingRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingRepository.swift; sourceTree = "<group>"; };
-		549FC4F8297CAB89003B51BE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		549FC4F9297CAB89003B51BE /* LandingViewInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewInjector.swift; sourceTree = "<group>"; };
-		549FC4FA297CAB89003B51BE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		549FC4FC297CAB89003B51BE /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
-		549FC4FD297CAB89003B51BE /* Landing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
-		549FC4FF297CAB89003B51BE /* LandingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
-		549FC500297CAB89003B51BE /* LandingGatewayInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingGatewayInjector.swift; sourceTree = "<group>"; };
 		549FC503297CAB89003B51BE /* ChainGETBulbasaurUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainGETBulbasaurUseCase.swift; sourceTree = "<group>"; };
 		549FC504297CAB89003B51BE /* ChainGETIvysaurUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainGETIvysaurUseCase.swift; sourceTree = "<group>"; };
 		549FC505297CAB89003B51BE /* ChainUseCaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainUseCaseRepository.swift; sourceTree = "<group>"; };
@@ -128,16 +107,13 @@
 		549FC519297CAB8A003B51BE /* SequencePokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequencePokemon.swift; sourceTree = "<group>"; };
 		549FC51B297CAB8A003B51BE /* SequenceUseCaseGatewayInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceUseCaseGatewayInjector.swift; sourceTree = "<group>"; };
 		549FC51C297CAB8A003B51BE /* SequenceUseCaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceUseCaseController.swift; sourceTree = "<group>"; };
-		549FC51F297CAB8A003B51BE /* GETBulbasaurUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETBulbasaurUseCase.swift; sourceTree = "<group>"; };
+		549FC51F297CAB8A003B51BE /* GETUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETUseCase.swift; sourceTree = "<group>"; };
 		549FC520297CAB8A003B51BE /* UseCaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseRepository.swift; sourceTree = "<group>"; };
 		549FC522297CAB8A003B51BE /* UseCaseViewInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseViewInjector.swift; sourceTree = "<group>"; };
 		549FC523297CAB8A003B51BE /* UseCaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseViewController.swift; sourceTree = "<group>"; };
 		549FC525297CAB8A003B51BE /* UnitPokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitPokemon.swift; sourceTree = "<group>"; };
 		549FC527297CAB8A003B51BE /* UseCaseGatewayInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseGatewayInjector.swift; sourceTree = "<group>"; };
 		549FC528297CAB8A003B51BE /* UseCaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseController.swift; sourceTree = "<group>"; };
-		549FC52C297CAB8A003B51BE /* LandingRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingRepositoryImpl.swift; sourceTree = "<group>"; };
-		549FC52E297CAB8A003B51BE /* LandingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
-		549FC52F297CAB8A003B51BE /* ControllerFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerFactoryImpl.swift; sourceTree = "<group>"; };
 		549FC531297CAB8A003B51BE /* ChainUseCaseRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainUseCaseRepositoryImpl.swift; sourceTree = "<group>"; };
 		549FC533297CAB8A003B51BE /* ChainUseCaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainUseCaseViewModel.swift; sourceTree = "<group>"; };
 		549FC534297CAB8A003B51BE /* ChainUseCaseControllerFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainUseCaseControllerFactoryImpl.swift; sourceTree = "<group>"; };
@@ -246,60 +222,11 @@
 		549FC4F2297CAB89003B51BE /* feature */ = {
 			isa = PBXGroup;
 			children = (
-				549FC4F3297CAB89003B51BE /* landing */,
 				549FC501297CAB89003B51BE /* chainusecase */,
 				549FC50F297CAB8A003B51BE /* sequenceusecase */,
 				549FC51D297CAB8A003B51BE /* usecase */,
 			);
 			path = feature;
-			sourceTree = "<group>";
-		};
-		549FC4F3297CAB89003B51BE /* landing */ = {
-			isa = PBXGroup;
-			children = (
-				549FC4F4297CAB89003B51BE /* business */,
-				549FC4F7297CAB89003B51BE /* view */,
-				549FC4FB297CAB89003B51BE /* domain */,
-				549FC4FE297CAB89003B51BE /* gateway */,
-			);
-			path = landing;
-			sourceTree = "<group>";
-		};
-		549FC4F4297CAB89003B51BE /* business */ = {
-			isa = PBXGroup;
-			children = (
-				549FC4F5297CAB89003B51BE /* LandingUseCase.swift */,
-				549FC4F6297CAB89003B51BE /* LandingRepository.swift */,
-			);
-			path = business;
-			sourceTree = "<group>";
-		};
-		549FC4F7297CAB89003B51BE /* view */ = {
-			isa = PBXGroup;
-			children = (
-				549FC4F8297CAB89003B51BE /* ViewController.swift */,
-				549FC4F9297CAB89003B51BE /* LandingViewInjector.swift */,
-				549FC4FA297CAB89003B51BE /* ContentView.swift */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		549FC4FB297CAB89003B51BE /* domain */ = {
-			isa = PBXGroup;
-			children = (
-				549FC4FC297CAB89003B51BE /* Pokemon.swift */,
-				549FC4FD297CAB89003B51BE /* Landing.swift */,
-			);
-			path = domain;
-			sourceTree = "<group>";
-		};
-		549FC4FE297CAB89003B51BE /* gateway */ = {
-			isa = PBXGroup;
-			children = (
-				549FC4FF297CAB89003B51BE /* LandingController.swift */,
-				549FC500297CAB89003B51BE /* LandingGatewayInjector.swift */,
-			);
-			path = gateway;
 			sourceTree = "<group>";
 		};
 		549FC501297CAB89003B51BE /* chainusecase */ = {
@@ -412,7 +339,7 @@
 		549FC51E297CAB8A003B51BE /* business */ = {
 			isa = PBXGroup;
 			children = (
-				549FC51F297CAB8A003B51BE /* GETBulbasaurUseCase.swift */,
+				549FC51F297CAB8A003B51BE /* GETUseCase.swift */,
 				549FC520297CAB8A003B51BE /* UseCaseRepository.swift */,
 			);
 			path = business;
@@ -456,30 +383,11 @@
 		549FC52A297CAB8A003B51BE /* feature */ = {
 			isa = PBXGroup;
 			children = (
-				549FC52B297CAB8A003B51BE /* landing */,
 				549FC530297CAB8A003B51BE /* chainusecase */,
 				549FC535297CAB8A003B51BE /* sequenceusecase */,
 				549FC53A297CAB8A003B51BE /* usecase */,
 			);
 			path = feature;
-			sourceTree = "<group>";
-		};
-		549FC52B297CAB8A003B51BE /* landing */ = {
-			isa = PBXGroup;
-			children = (
-				549FC52C297CAB8A003B51BE /* LandingRepositoryImpl.swift */,
-				549FC52D297CAB8A003B51BE /* gateway */,
-			);
-			path = landing;
-			sourceTree = "<group>";
-		};
-		549FC52D297CAB8A003B51BE /* gateway */ = {
-			isa = PBXGroup;
-			children = (
-				549FC52E297CAB8A003B51BE /* LandingViewModel.swift */,
-				549FC52F297CAB8A003B51BE /* ControllerFactoryImpl.swift */,
-			);
-			path = gateway;
 			sourceTree = "<group>";
 		};
 		549FC530297CAB8A003B51BE /* chainusecase */ = {
@@ -807,15 +715,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				549FC566297CAB8A003B51BE /* ChainUseCaseControllerFactoryImpl.swift in Sources */,
-				549FC547297CAB8A003B51BE /* LandingGatewayInjector.swift in Sources */,
 				549FC560297CAB8A003B51BE /* UseCaseController.swift in Sources */,
 				549FC40E29771C5B003B51BE /* Document.swift in Sources */,
 				549FC557297CAB8A003B51BE /* SequencePokemon.swift in Sources */,
-				549FC53F297CAB8A003B51BE /* LandingUseCase.swift in Sources */,
 				549FC56C297CAB8A003B51BE /* UseCaseViewModel.swift in Sources */,
 				549FC556297CAB8A003B51BE /* SequenceUseCaseViewController.swift in Sources */,
 				549FC54A297CAB8A003B51BE /* ChainUseCaseRepository.swift in Sources */,
-				549FC563297CAB8A003B51BE /* ControllerFactoryImpl.swift in Sources */,
 				549FC553297CAB8A003B51BE /* SequenceGETIvysaurUseCase.swift in Sources */,
 				549FC559297CAB8A003B51BE /* SequenceUseCaseController.swift in Sources */,
 				549FC54C297CAB8A003B51BE /* ChainUseCaseViewController.swift in Sources */,
@@ -825,26 +730,18 @@
 				549FC55F297CAB8A003B51BE /* UseCaseGatewayInjector.swift in Sources */,
 				549FC55C297CAB8A003B51BE /* UseCaseViewInjector.swift in Sources */,
 				549FC564297CAB8A003B51BE /* ChainUseCaseRepositoryImpl.swift in Sources */,
-				549FC542297CAB8A003B51BE /* LandingViewInjector.swift in Sources */,
 				549FC54B297CAB8A003B51BE /* ChainUseCaseViewInjector.swift in Sources */,
-				549FC546297CAB8A003B51BE /* LandingController.swift in Sources */,
 				549FC549297CAB8A003B51BE /* ChainGETIvysaurUseCase.swift in Sources */,
 				549FC569297CAB8A003B51BE /* SequenceUseCaseViewModel.swift in Sources */,
 				549FC56B297CAB8A003B51BE /* UseCaseControllerFactoryImpl.swift in Sources */,
 				549FC55D297CAB8A003B51BE /* UseCaseViewController.swift in Sources */,
 				549FC550297CAB8A003B51BE /* ChainUseCaseGatewayInjector.swift in Sources */,
-				549FC545297CAB8A003B51BE /* Landing.swift in Sources */,
 				549FC548297CAB8A003B51BE /* ChainGETBulbasaurUseCase.swift in Sources */,
 				549FC55E297CAB8A003B51BE /* UnitPokemon.swift in Sources */,
 				549FC568297CAB8A003B51BE /* SequenceUseCaseControllerFactoryImpl.swift in Sources */,
 				549FC40C29771C5B003B51BE /* DocumentViewController.swift in Sources */,
-				549FC540297CAB8A003B51BE /* LandingRepository.swift in Sources */,
-				549FC562297CAB8A003B51BE /* LandingViewModel.swift in Sources */,
-				549FC544297CAB8A003B51BE /* Pokemon.swift in Sources */,
 				549FC56A297CAB8A003B51BE /* UseCaseRepositoryImpl.swift in Sources */,
-				549FC543297CAB8A003B51BE /* ContentView.swift in Sources */,
 				549FC551297CAB8A003B51BE /* SequenceUseCaseRepository.swift in Sources */,
-				549FC541297CAB8A003B51BE /* ViewController.swift in Sources */,
 				549FC54D297CAB8A003B51BE /* ChainedPokemon.swift in Sources */,
 				549FC55B297CAB8A003B51BE /* UseCaseRepository.swift in Sources */,
 				549FC54E297CAB8A003B51BE /* ChainPokemon.swift in Sources */,
@@ -852,11 +749,10 @@
 				549FC40A29771C5B003B51BE /* DocumentBrowserViewController.swift in Sources */,
 				549FC565297CAB8A003B51BE /* ChainUseCaseViewModel.swift in Sources */,
 				549FC40829771C5B003B51BE /* AppDelegate.swift in Sources */,
-				549FC55A297CAB8A003B51BE /* GETBulbasaurUseCase.swift in Sources */,
+				549FC55A297CAB8A003B51BE /* GETUseCase.swift in Sources */,
 				549FC567297CAB8A003B51BE /* SequenceUseCaseRepositoryImpl.swift in Sources */,
 				549FC558297CAB8A003B51BE /* SequenceUseCaseGatewayInjector.swift in Sources */,
 				549FC5712981BA0D003B51BE /* BaseRepository.swift in Sources */,
-				549FC561297CAB8A003B51BE /* LandingRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

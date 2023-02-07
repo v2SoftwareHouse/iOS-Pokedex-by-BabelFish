@@ -8,13 +8,9 @@
 import Foundation
 import babelfish
 
-class GETBulbasaurUseCase : UseCase<String, UnitPokemon> {
-     var repo: UseCaseRepository
-    
-    override func onGuard(param: String?) -> Bool {
-        return param != nil
-    }
-    
+class GETUseCase : UseCase<String, UnitPokemon> {
+    var repo: UseCaseRepository
+
     init(repo: UseCaseRepository){
         self.repo = repo
     }

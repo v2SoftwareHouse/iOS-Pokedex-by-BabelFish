@@ -6,13 +6,21 @@
 //
 
 import Foundation
+import Alamofire
 
-class ChainUseCaseRepositoryImpl : ChainUseCaseRepository {
-    func getIvysaur() -> ChainPokemon? {
-        return ChainPokemon(name: "Ivysaur")
+class ChainUseCaseRepositoryImpl : BaseRepository, ChainUseCaseRepository {
+    
+    override init(baseUrl: String) {
+        super.init(baseUrl: baseUrl)
     }
     
-    func getBulbasaur() -> ChainPokemon? {
-        return ChainPokemon(name: "Bulbasaur")
+    func getIvysaur()  -> ChainPokemon? {
+        let pokemon = "pokemon/ivysaur"
+        return getBodyOrThrow(call: AF.request(baseUrl + pokemon, method: .get))
+    }
+    
+    func getBulbasaur()  -> ChainPokemon? {
+        let pokemon = "pokemon/bulbasaur"
+        return getBodyOrThrow(call: AF.request(baseUrl + pokemon, method: .get))
     }
 }

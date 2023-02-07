@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_pokedex_clean" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pokedex_Babel_Fish" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Unit usecase example"/>
                                 <connections>
-                                    <segue destination="gJa-Eu-RdF" kind="show" id="qyh-Rl-cvU"/>
+                                    <segue destination="gJa-Eu-RdF" kind="show" id="Zuo-oO-qP2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96e-nS-COD" userLabel="btn_chain_usecase">
@@ -63,6 +63,7 @@
                             <constraint firstItem="ohQ-IC-NQw" firstAttribute="top" secondItem="96e-nS-COD" secondAttribute="bottom" constant="45" id="sxc-c0-gBi"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="QJm-pr-8Bs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,7 +72,7 @@
         <!--Use Case View Controller-->
         <scene sceneID="tEr-aK-TT5">
             <objects>
-                <viewController id="gJa-Eu-RdF" customClass="UseCaseViewController" customModule="ios_pokedex_clean" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gJa-Eu-RdF" customClass="UseCaseViewController" customModule="Pokedex_Babel_Fish" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="85h-DO-hTa">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +88,7 @@
         <!--Chain Use Case View Controller-->
         <scene sceneID="AQl-T4-W5D">
             <objects>
-                <viewController id="nuY-JD-BPJ" customClass="ChainUseCaseViewController" customModule="ios_pokedex_clean" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nuY-JD-BPJ" customClass="ChainUseCaseViewController" customModule="Pokedex_Babel_Fish" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lVW-HG-Aku">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,7 +104,7 @@
         <!--Sequence Use Case View Controller-->
         <scene sceneID="afV-lt-foA">
             <objects>
-                <viewController id="nTY-7P-AYl" customClass="SequenceUseCaseViewController" customModule="ios_pokedex_clean" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nTY-7P-AYl" customClass="SequenceUseCaseViewController" customModule="Pokedex_Babel_Fish" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T9e-5d-Iy0">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

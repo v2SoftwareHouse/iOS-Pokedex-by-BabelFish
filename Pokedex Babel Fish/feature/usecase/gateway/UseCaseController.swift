@@ -9,5 +9,5 @@ import Foundation
 import babelfish
 
 protocol UseCaseController : Controller {
-    func doFetch(channelName: String)
+    func doFetch(channelName: String, name: String?)
 }

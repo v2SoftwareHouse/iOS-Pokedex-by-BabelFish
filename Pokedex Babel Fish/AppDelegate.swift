@@ -15,28 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        injectLanding()
         injectUnitUseCase()
         injectChainUseCase()
         injectSequenceUseCase()
         return true
     }
-    private func injectLanding(){
-        LandingGatewayInjector.injector = {
-            let instance = LandingGatewayInjector(doFetch: LandingUseCase(repo: LandingRepositoryImpl()))
-            return instance
-        }()
 
-        LandingViewInjector.injector = {
-            let factory = ControllerFactoryImpl()
-            let instance = LandingViewInjector(controllerFactory: factory)
-            return instance
-        }()
-    }
-    
     private func injectUnitUseCase(){
         UseCaseGatewayInjector.injector = {
-            let instance = UseCaseGatewayInjector(getBulbasaur: GETBulbasaurUseCase(repo: UseCaseRepositoryImpl()))
+            let instance = UseCaseGatewayInjector(get: GETUseCase(repo: UseCaseRepositoryImpl(baseUrl: url)))
             return instance
         }()
 
@@ -67,8 +54,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func injectChainUseCase(){
         ChainUseCaseGatewayInjector.injector = {
             let instance = ChainUseCaseGatewayInjector(
-                getIvysaur: ChainGETIvysaurUseCase(repo:ChainUseCaseRepositoryImpl()),
-                getBulbasaur:ChainGETBulbasaurUseCase(repo:ChainUseCaseRepositoryImpl()))
+                getIvysaur: ChainGETIvysaurUseCase(repo:ChainUseCaseRepositoryImpl(baseUrl: url)),
+                getBulbasaur:ChainGETBulbasaurUseCase(repo:ChainUseCaseRepositoryImpl(baseUrl: url)))
             return instance
         }()
 
